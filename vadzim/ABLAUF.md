@@ -13,9 +13,14 @@ commit
 
 ## M001 | GETTING STARTED
 
-- [ ] intro
-- [ ] node & npm
-- [ ] tsc
-- [ ] [TS.md getting started](typescript.md#ts--getting-started)
-- [ ] [M001-Demo](M001-Demo-Helloworld/greeter.ts)
-- [ ] [M001-Lab](M001-Lab-LoginForm/m1-Aufgabenstellung.md)
+- [x] intro
+- [x] node & npm [npm home](https://www.npmjs.com/)
+- [x] tsc
+- [x] [TS.md getting started](typescript.md#ts--getting-started)
+- [x] [M001-Demo](M001-Demo-Helloworld/greeter.ts)
+- [x] [M001-Lab](M001-Lab-LoginForm/login.ts)
+- [x] [js Dom Traversing](M001-Demo-Helloworld/jsDOMtraversing.html)
+- [x] [emmet](M001-Demo-Helloworld/emmet.html)
+
+## M002 | TYPES
+
