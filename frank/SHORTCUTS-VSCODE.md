@@ -6,6 +6,7 @@
 | `ctrl k 8` | fold all regions |
 | `ctrl k 9` | unfold all regions |
 | `shift_alt a` | comment / uncomment |
+| `shift #` | comment / uncomment one line or selelction|
 | `shift_alt f` | format |
 | `ctrl l` | select line |
 | `shift_alt up/down` | duplicate line or selection |
@@ -22,3 +23,4 @@
 | `ctrl +` | zoom in |
 | `ctrl -` | zoom out |
 | `ctrl_shift p` | show all commands |
+| `ctrl_shift b` | compile/ build  with rules from config.json |
