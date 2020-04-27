@@ -7,5 +7,5 @@ Viel Erfolg!
 function login(u) {
     return "Hello" + u;
 }
-var user = document.getElementById('user').value;
+let user = document.getElementById('user').value;
 document.getElementById('hi').textContent = login(user);
