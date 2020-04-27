@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM ELEMENTS SELECTION</title>
+    <style>
+        .divClass {
+            border: thin solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS DOM ELEMENTS SELECTION</h1>
+    <div id="myId">d</div>
+    <!-- p*3 -->
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+
+    <!-- form>input:checkbox*3 -->
+    <form action="">
+        <input type="radio" name="rInp" id="inp1" onchange=showChecked()>
+        <input type="radio" name="rInp" id="inp2" onchange=showChecked()>
+        <input type="radio" name="rInp" id="inp3" onchange=showChecked()>
+        <output id="outp"></output>
+    </form>
+
+    <!-- .divClass*5 -->
+    <div class="divClass">div</div>
+    <div class="divClass">div</div>
+    <div class="divClass">div</div>
+    <div class="divClass">div</div>
+    <div class="divClass">div</div>
+    <button onclick=makeBig()>makeBig</button>
+
+    <script>
+        
+        // getElementById
+        document.getElementById("myId").textContent += ' test Id-Selection';
+
+        // getElementsByTagName
+        let myPs = document.getElementsByTagName("p");
+        // foreach snippet
+        // array.forEach(element => {            
+        // });
+        // forin snippet für Objekte
+        // for (const key in object) {
+        //     if (object.hasOwnProperty(key)) {
+        //         const element = object[key];                
+        //     }
+        // }
+        // forof snippet für Arrays / Collections
+        for (const iterator of myPs) {
+            iterator.textContent += ' test TagName Selection';
+        }
+
+        // getElementsByName
+        function showChecked() {
+            for (const iterator of document.getElementsByName("rInp")) {
+                if (iterator.checked)
+                {
+                    outp.textContent = iterator.id;
+                }
+            }            
+        }
+
+        // getElementsByClassName
+        function makeBig() {
+            for (const iterator of document.getElementsByClassName("divClass")) {
+                iterator.style.height = '2em';
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
