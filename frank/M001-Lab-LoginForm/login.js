@@ -7,9 +7,9 @@ Jedes Passwort wird erstmal akzeptiert.
 Viel Erfolg!
  */
 function btn_login_pressed() {
-    var username = "";
-    var passwort = "";
-    var myMessage = "";
+    let username = "";
+    let passwort = "";
+    let myMessage = "";
     username = document.getElementById('name').value;
     passwort = document.getElementById('pwd').value;
     if (passwort === "") {
@@ -18,5 +18,5 @@ function btn_login_pressed() {
     else {
         myMessage = "Hello " + username + " Welcome Back";
     }
-    document.getElementById("welcome").textContent = myMessage;
+    document.getElementById("welcome").textContent += myMessage;
 }
