@@ -2,6 +2,7 @@
 
 | shortcut | effect |
 | --- | --- |
+| `ctrl ö` | open terminal |
 | `ctrl k s` | vscode shortcuts |
 | `ctrl k 8` | fold all regions |
 | `ctrl k 9` | unfold all regions |
@@ -14,7 +15,6 @@
 | `shift_alt cursor` | edit many lines |
 | `ctrl space` | force intellisense |
 | `ctrl leftclick` | go to definition |
-| `ctrl ö` | open terminal |
 | `ctrl #` | comment / uncomment |
 | `ctrl k s` | save all |
 | `alt b` | open in browser |
