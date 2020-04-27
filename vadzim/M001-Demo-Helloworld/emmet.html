@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMET</title>
+    <style>
+        body > h1 {
+            text-align: center;
+            /* w1000 */
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <h1>EMMET</h1>
+
+    <pre>
+        Früher: Zen Coding (heute auch unter diesem Namen in VS)
+        in VSC ist eine Built-In-Erweiterung 
+        Funktioniert in html und css Dateien
+    </pre>
+
+    <h2>Inhalt</h2>
+    <pre>
+        Geschw. Klammern ist die einzige Stelle, wo Leerzeichen erlaubt sind.
+        p{text}
+    </pre>
+    <p>text</p>
+
+
+    <h2>Verschachtelung</h2>
+    <pre>
+        div>p{text von p}
+    </pre>
+    <div>
+        <p>text von p</p>
+    </div>
+
+
+    <h2>Wiederholung</h2>
+    <pre>
+        div>p{text von p}*3
+    </pre>
+    <div>
+        <p>text von p</p>
+        <p>text von p</p>
+        <p>text von p</p>
+    </div>
+
+    <pre>
+        Durch die Klammern kann entschieden werden, was wiederholt wird.
+        (div>p{text von p})*3
+    </pre>
+    <div>
+        <p>text von p</p>
+    </div>
+    <div>
+        <p>text von p</p>
+    </div>
+    <div>
+        <p>text von p</p>
+    </div>
+
+
+    <h2>ID</h2>
+    <pre>        
+        #divId>p{text von p}*3
+        section#sectionId>p{text von p}*3
+    </pre>
+    <div id="divId">
+        <p>text von p</p>
+        <p>text von p</p>
+        <p>text von p</p>
+    </div>
+
+    <section id="sectionId">
+        <p>text von p</p>
+        <p>text von p</p>
+        <p>text von p</p>
+    </section>
+
+
+    <h2>Classes</h2>
+    <pre>
+        .divClass>p{text von p}*3
+        .divClass>p.pClass{text von p}*3
+    </pre>
+    <div class="divClass">
+        <p>text von p</p>
+        <p>text von p</p>
+        <p>text von p</p>
+    </div>
+
+    <div class="divClass">
+        <p class="pClass">text von p</p>
+        <p class="pClass">text von p</p>
+        <p class="pClass">text von p</p>
+    </div>
+
+
+    <h2>Nummerierung</h2>
+    <pre>
+        einstellige Nummerierung: $
+        zweistellige: $$
+        usw...
+        .divClass>p.pClass{text von p $}*3
+    </pre>
+
+    <div class="divClass">
+        <p class="pClass">text von p 1</p>
+        <p class="pClass">text von p 2</p>
+        <p class="pClass">text von p 3</p>
+    </div>
+
+
+    <h2>Attribute</h2>
+    <pre>
+        Die eckigen Klammern für Attribute
+        Geschwister-Elemente : mit +
+        .divClass>p.pClass{text von p $}*3+button[disabled]{OK}
+        Werte für Attribute auch möglich
+        .divClass>p.pClass{text von p $}*3+button[disabled="false"]{OK}
+        type-Attribut bei input-Elementen - mit Doppelpunkt
+        input:button
+        Die obligatorischen Attribute erscheinen automatisch
+    </pre>
+    <div class="divClass">
+        <p class="pClass">text von p 1</p>
+        <p class="pClass">text von p 2</p>
+        <p class="pClass">text von p 3</p>
+        <button disabled="disabled">OK</button>
+    </div>
+
+    <input type="button" value="">
+
+
+    <h2>Random Text</h2>
+    <pre>
+        lorem muss Kind-Element sein, nicht in die {}
+        automatisch werden Zwischenelemente eingebaut
+            bei P sind es Span
+            bei Listen sind es Li
+        Über eine Zahl bei lorem kann man Anzahl von gewünschten Wörtern mit angeben
+        .divClass>p.pClass>lorem*3
+        ul>lorem3*3
+        Auschließen von automatischen Elementen: über Klammerung
+        .divClass>(p.pClass>lorem5)*3
+    </pre>
+    <div class="divClass">
+        <p class="pClass">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam numquam quaerat esse obcaecati nulla soluta architecto omnis ducimus placeat eligendi, aut, error quidem. Expedita ratione hic esse numquam aliquid!</span>
+            <span>Neque, rem optio. Similique expedita adipisci labore alias minus possimus officiis praesentium nobis vitae dolores odio recusandae harum a ipsam saepe, quasi hic eligendi qui nam, aliquam sunt. Expedita, magnam.</span>
+            <span>Accusamus eaque, aspernatur libero vero quidem soluta explicabo veniam sed, amet ipsum nulla deserunt veritatis earum, molestiae harum perspiciatis debitis enim rerum hic fugiat animi. Tempora inventore eum soluta nam.</span>
+        </p>
+    </div>
+
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>In, suscipit molestiae?</li>
+        <li>Aspernatur, tenetur impedit.</li>
+    </ul>
+
+    <div class="divClass">
+        <p class="pClass">Lorem ipsum dolor sit amet.</p>
+        <p class="pClass">Labore excepturi aut voluptas nam?</p>
+        <p class="pClass">Eius maiores labore nam deleniti?</p>
+    </div>
+</body>
+</html>
