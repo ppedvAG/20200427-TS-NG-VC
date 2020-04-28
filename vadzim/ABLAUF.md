@@ -39,16 +39,17 @@ commit
 - [ ] generic function
 - [ ] [demo](M003-Demo-Functions/functions.ts)
 
+commit
+
 ## M004 | DATA STRUCTURES
 
 - [ ] [arrays](M004-Demo-DataStructures/arrays.ts)
 - [ ] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
+<!-- data structures: arrays & tuples -->
 
-<!-- functions, generic functions -->
+commit
 
 <!-- union type & string literal type -->
-
-<!-- data structures: arrays & tuples -->
 
 <!-- interfaces -->
 

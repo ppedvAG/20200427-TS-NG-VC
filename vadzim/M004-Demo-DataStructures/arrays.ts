@@ -15,3 +15,6 @@ let stringsArray: Array<string> = ['sdfg', 'adfg', 'lkfj'];
 let state: ReadonlyArray<Number>;
 
 let images: ReadonlyArray<HTMLImageElement>;
+
+
+let myStrOrNumOrAnyArray: Array<string | number | any>;
