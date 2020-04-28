@@ -43,11 +43,15 @@ commit
 
 ## M004 | DATA STRUCTURES
 
-- [ ] [arrays](M004-Demo-DataStructures/arrays.ts)
-- [ ] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
-<!-- data structures: arrays & tuples -->
+- [x] [arrays](M004-Demo-DataStructures/arrays.ts)
+- [x] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
+- [x] [tuple / Tupel](M004-Demo-DataStructures/tuples.ts)
 
 commit
+
+## M005 | UNION TYPE & LITERAL TYPE
+
+- [ ] [union type & string literal type](M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
 
 <!-- union type & string literal type -->
 

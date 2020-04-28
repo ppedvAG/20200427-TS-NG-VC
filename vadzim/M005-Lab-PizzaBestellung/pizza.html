@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            display: none;
+            /* visibility: hidden; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Pizzabestellung</h1>
+    <!-- form>input+datalist>option*4 -->
+    <form action="">
+        <input type="text" list=größen id=inpGr>
+        <datalist id=größen>
+            <option value="1">klein</option>
+            <option value="2">mittel</option>
+            <option value="3">groß</option>
+            <option value="4">family</option>
+        </datalist>
+        <button type="button" onclick="bestelle(+inpGr.value)">bestellen</button>
+        <p>Bestellung angenommen: eine <span id=bestellOutp></span>-Pizza wird ausgeliefert.</p>
+
+    </form>
+    <script src="pizza.js"></script>
+</body>
+
+</html>
