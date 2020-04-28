@@ -15,6 +15,8 @@ function zeigeNumber() {
     let myBigInt: bigint = 2345n;
     document.getElementById('numberP8')!.textContent = 'myBigInt: ' + myBigInt;
     // let myBigInt2: BigInteger = 2345n; // BigInteger & Uint8Array ??? *todo
+    
+
 }
 
 zeigeNumber();

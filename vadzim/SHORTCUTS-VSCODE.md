@@ -7,10 +7,10 @@
 | `shift #` | comment / uncomment one line or selection with |
 | `ctrl_shift b` | build with rules from config.json |
 | `ctrl space` | force intellisense |
+| `shift_alt f` | format |
 | `ctrl k s` | vscode shortcuts |
 | `ctrl k 8` | fold all regions |
 | `ctrl k 9` | unfold all regions |
-| `shift_alt f` | format |
 | `ctrl l` | select line |
 | `shift_alt up/down` | duplicate line or selection |
 | `ctrl c ctrl v` | duplicate line |

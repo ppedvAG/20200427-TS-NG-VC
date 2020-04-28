@@ -22,5 +22,39 @@ commit
 - [x] [js Dom Traversing](M001-Demo-Helloworld/jsDOMtraversing.html)
 - [x] [emmet](M001-Demo-Helloworld/emmet.html)
 
+commit
+
 ## M002 | TYPES
 
+- [ ] [primitives, type object, typeof, casting](M002-Demo-Types/types.ts)
+- [ ] [assertion](M002-Demo-Types/assertion.ts)
+- [ ] [Ü Taschenrechner](M001-Lab-Rechner/rechner.ts)
+
+commit
+
+## M003 | FUNCTION
+
+- [ ] return type
+- [ ] function type
+- [ ] generic function
+- [ ] [demo](M003-Demo-Functions/functions.ts)
+
+commit
+
+## M004 | DATA STRUCTURES
+
+- [ ] [arrays](M004-Demo-DataStructures/arrays.ts)
+- [ ] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
+<!-- data structures: arrays & tuples -->
+
+commit
+
+<!-- union type & string literal type -->
+
+<!-- interfaces -->
+
+<!-- any & unknown -->
+
+<!-- type narrowing & type guards -->
+
+<!-- promise -->

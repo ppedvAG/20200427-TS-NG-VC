@@ -8,6 +8,7 @@
 - [x] Git [homepage](https://git-scm.com)
 - [x] [git-commands.md](GIT-COMMANDS.md)
 - [x] [text editor shortcuts.md](SHORTCUTS-EDITOR.md)
+- [ ] [git repo] (https://github.com/ppedvAG/20200427-TS-NG-VC)
 
 commit ausgeführt
 
