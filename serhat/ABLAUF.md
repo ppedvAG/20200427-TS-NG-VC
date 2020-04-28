@@ -1,6 +1,6 @@
-# Ablauf, Frank
+# Ablauf, Serhat
 
-## M000 | Warming Up
+## M000 | WARMING UP
 
 - [x] Greeter
 - [x] Visual Studio Code [homepage](https://code.visualstudio.com/)
@@ -8,19 +8,14 @@
 - [x] Git [homepage](https://git-scm.com)
 - [x] [git-commands.md](GIT-COMMANDS.md)
 - [x] [text editor shortcuts.md](SHORTCUTS-EDITOR.md)
-- [ ] [git repo] (https://github.com/ppedvAG/20200427-TS-NG-VC)
 
-commit ausgeführt
+commit
 
-## M001 | getting started
+## M001 | GETTING STARTED
 
 - [ ] intro
 - [ ] node & npm
 - [ ] tsc
 - [ ] [TS.md getting started](typescript.md#ts--getting-started)
 - [ ] [M001-Demo](M001-Demo-Helloworld/greeter.ts)
-- [ ] [M001-Lab](M001-Lab-LoginForm/login.ts)
-
-## M002 | Types, Casting
-
-- [] 
+- [ ] [M001-Lab](M001-Lab-LoginForm/m1-Aufgabenstellung.md)

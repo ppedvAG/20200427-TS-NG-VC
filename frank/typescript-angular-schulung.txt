@@ -1,0 +1,22 @@
+github
+
+https://github.com/ppedvAG/20200427-TS-NG-VC.git
+
+
+git clone https://github.com/ppedvAG/20200427-TS-NG-VC.git
+
+#for commit
+git config user.name "Frank"
+git config user.email "Frank@me.com"
+
+# install typescript
+ npm i -g typescript
+
+# install extensions VSC
+Markdown all in One
+markdownlint
+TSLINT
+open in browser
+live server
+
+
