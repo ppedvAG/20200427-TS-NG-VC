@@ -46,7 +46,7 @@ function zeigeSpecials() {
     mynullStr = String(null);
     document.getElementById('specialP2').textContent = "mynullStr, null to string: " + mynullStr;
     document.getElementById('specialP3').textContent = "typeof myNull: " + typeof myNull;
-    document.getElementById('specialP4').textContent = "myNull instanceof Object: " + String(myNull instanceof Object);
+    // document.getElementById('specialP4')!.textContent = "myNull instanceof Object: " + String(myNull instanceof Object);
     let myUndefined = undefined;
     document.getElementById('specialP5').textContent = "typeof myUndefined: " + typeof myUndefined;
     let myVoid;
