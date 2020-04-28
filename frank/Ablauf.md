@@ -23,4 +23,19 @@ commit ausgeführt
 
 ## M002 | Types, Casting
 
-- [] 
+- [ ] [primitives, type object, typeof, casting](M002-Demo-Types/types.ts)
+- [ ] [Übung Taschenrechner](M002-Lab-Calculator/calc.ts)
+- [ ] [Assertion](vadzim\M002-Demo-Types\assertion.ts)
+
+## M003 | Functions
+
+- [ ] return Type
+- [ ] function type
+- [ ] generic functions
+- [ ] [demo](M003-Demo-Functions/functions.ts)
+- [ ] 
+
+## M004 | data structures
+
+- [ ] [Arrays](M004-Demo-DataStructures/arrays.ts)
+- [ ] [Übung-Array](M004-Lab-DataStructures/genericFunctionNArrays.ts)
