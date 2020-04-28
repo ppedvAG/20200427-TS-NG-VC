@@ -52,10 +52,15 @@ commit
 ## M005 | UNION TYPE & LITERAL TYPE
 
 - [ ] [union type & string literal type](M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
+- [ ] [enums](M005-Demo-UnionTypeNLiteralType/enums.ts)
+- [ ] [Ü Pizzabestellung](M005-Lab-PizzaBestellung\pizza.ts)
 
-<!-- union type & string literal type -->
+commit
 
-<!-- interfaces -->
+## M006 | INTERFACES
+
+- [x] [interfaces](M006-Demo-Interfaces/interfaces.ts)
+- [x] [Ü Todos](M006-Lab-TodoListe\todos.ts)
 
 <!-- any & unknown -->
 
