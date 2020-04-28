@@ -48,3 +48,4 @@ commit ausgeführt
 
 ## M006 | Interfaces
 
+- [ ] [Interfaces](M006-Demo-Interfaces/interfaces.ts)
