@@ -37,3 +37,4 @@ commit
 
 - [ ] [arrays](M004-Demo-DataStructures/arrays.ts)
 - [ ] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
+- [ ] [Tuples](M004-Demo-DataStructures/tuples.ts)
