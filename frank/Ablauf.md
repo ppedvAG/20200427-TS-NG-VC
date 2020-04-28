@@ -38,8 +38,13 @@ commit ausgeführt
 
 - [x] [Arrays](M004-Demo-DataStructures/arrays.ts)
 - [x] [Übung-Array](M004-Lab-DataStructures/genericFunctionNArrays.ts)
-- [ ] [tuple]
+- [x] [tuple]
 
 ## M005 | union types & string literal type
 
-- [ ] [union types](M005-Demo-Union-Literals/union.ts)
+- [x] [union types](M005-Demo-Union-Literals/union.ts)
+- [x] [enumerations](M005-Demo-Union-Literals\enums.ts)
+- [x] [Übung Pizza Bestellung](M005-Lab-PizzaBestellung\pizza.ts)
+
+## M006 | Interfaces
+
