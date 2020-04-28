@@ -28,17 +28,24 @@ commit
 
 ## M003 | FUNCTION
 
-- [ ] return type
-- [ ] function type
-- [ ] generic function
-- [ ] [demo](M003-Demo-Functions/functions.ts)
+- [x] return type
+- [x] function type
+- [x] generic function
+- [x] [demo](M003-Demo-Functions/functions.ts)
 
 ## M004 | DATA STRUCTURES
 
-- [ ] [arrays](M004-Demo-DataStructures/arrays.ts)
-- [ ] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
-- [ ] [Tuples](M004-Demo-DataStructures/tuples.ts)
+- [x] [arrays](M004-Demo-DataStructures/arrays.ts)
+- [x] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
+- [x] [Tuples](M004-Demo-DataStructures/tuples.ts)
   
 ## M005 | UNION TYPE & LITERAL TYPE
 
-- [ ] [union type and literal type](M005-Demo-UnionTypeAndLiteralType/unionTypeAndLiteralType.ts)
+- [x] [union type and literal type](M005-Demo-UnionTypeAndLiteralType/unionTypeAndLiteralType.ts)
+- [x] enums
+- [x] [Ü Pizzabestellung](M005-Lab-PizzaOrder/pizza.ts)
+
+## M006 | XYZ
+
+- [ ] [interfaces](M006-Demo-Interfaces/interfaces.ts)
+- [ ] [Ü Todos](M006-Lab-TodoListe/todos.ts)
