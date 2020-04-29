@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Bestell Hotline</title>
+
+    <style>
+        p {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pizza Bestellung</h1>
+
+    <!-- form>input+datalist>option*4 -->
+    <form action="">
+        <input type="text" list="groesse" id="selBox">
+        <datalist id="groesse">
+            <option value="1">klein</option>
+            <option value="2">mittel</option>
+            <option value="3">groß</option>
+            <option value="4">family</option>
+        </datalist>
+        <!-- <button type="button" onclick="bestellen(+selBox.value)">bestellen</button> -->
+        <button type="button" onclick="bestellen()">bestellen</button>
+        <p id="myout">
+            <output>Bestellung angenommen: Eine Pizza in der Größe <span id="choice"></span> wird ausgeliefert.</output>
+        </p>
+    </form>
+
+    <script src="pizza.js"></script>
+</body>
+</html>
