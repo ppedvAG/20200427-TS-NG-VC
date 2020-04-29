@@ -48,4 +48,10 @@ commit ausgeführt
 
 ## M006 | Interfaces
 
-- [ ] [Interfaces](M006-Demo-Interfaces/interfaces.ts)
+- [x] [Interfaces](M006-Demo-Interfaces/interfaces.ts)
+- [ ] todo -> type narrowing and type guard ???; promises (s. fetch Befehl in M006-Lab-todo)
+  
+## M007 | NG getting started
+
+- [ ] intro
+- [ ] project structure
