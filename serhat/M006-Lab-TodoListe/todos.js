@@ -3,9 +3,11 @@
 // Type checking
 // tabellenInhalt mit ts erzeugen
 let tbodyId = document.getElementById('tabellenInhalt');
+// Promise
 fetch('https://jsonplaceholder.typicode.com/todos/')
     .then(response => response.json())
     .then(json => renderTodos(json));
+// .catch()
 function renderTodos(todos) {
     for (const todo of todos) {
         let newRow = tbodyId.insertRow();
