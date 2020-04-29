@@ -66,3 +66,8 @@ commit ausgeführt
 - [ ] ngClass
 - [ ] _classname_
 
+## M011 | directives
+
+- [ ] directive, directive types
+- [ ] ngFor, ngFor, ngSwitch
+- [ ] ngTemplate

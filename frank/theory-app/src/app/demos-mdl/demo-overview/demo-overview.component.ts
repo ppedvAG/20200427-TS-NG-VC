@@ -13,9 +13,13 @@ export class DemoOverviewComponent implements OnInit {
   myUCouch: Furniture.UEckSofa;
   myCouch: Furniture.Sofa;
 
+  arabNumbers: number[];
+
   constructor() {
     this.myCouch = new Sofa(350, 124, 50, 'red');
     this.myUCouch = new UEckSofa(350, 124, 50, 'red', 3, 4);
+
+    this.arabNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   }
 
   ngOnInit(): void {

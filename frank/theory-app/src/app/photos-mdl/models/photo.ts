@@ -1,13 +1,4 @@
-
-export interface Photo {
-  albumID: number;
-  ID: number;
-  title: string;
-  url: string;
-  thumbnailUrl: string;
-}
-
-export class MyPhotos implements Photo {
+export class MyPhotos {
 
   constructor(
     public albumID: number ,
