@@ -6,9 +6,11 @@
 
 let tbodyId = <HTMLTableElement>document.getElementById('tabellenInhalt');
 
+// Promise
 fetch('https://jsonplaceholder.typicode.com/todos/')
     .then(response => response.json())
     .then(json => renderTodos(json))
+    // .catch()
 
 function renderTodos(todos: Array<Todo>) {
     for (const todo of todos) {

@@ -104,4 +104,21 @@ rating-Komponente wird über Overview gerendert
 
  commit
 
- 
+## M010 | NG & CSS
+
+- [ ] :host
+- [ ] style-object
+- [ ] class-object
+- [ ] ngStyle
+- [ ] ngClass
+- [ ] _classname_
+
+<!-- 
+LAB
+Rahmen für die Komponente
+
+ -->
+
+commit
+
+## M011 |

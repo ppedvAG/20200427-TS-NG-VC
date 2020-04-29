@@ -49,3 +49,41 @@ commit
 
 - [ ] [interfaces](M006-Demo-Interfaces/interfaces.ts)
 - [ ] [Ü Todos](M006-Lab-TodoListe/todos.ts)
+
+## M007 | NG GETTING STARTED
+
+- [ ] intro
+- [ ] project structure
+- [ ] ecosystem
+- [ ] ng cli
+
+[12:23] vadzimn@ppedv.de
+    
+
+ 
+## M008 | NG MODULES
+ 
+- [ ] ng modules
+- [ ] js/ts modules
+- [ ] node modules
+- [ ] [demos mdl](theory-app\src\app\demos-mdl\demos-mdl.module.ts)
+
+## M009 | COMPONENTS INTRO
+
+- [ ] component template
+- [ ] component selector
+- [ ] imports of components
+- [ ] [demo time](theory-app\src\app\demos-mdl\time\time.component.ts)
+- [ ] [demo card](theory-app\src\app\demos-mdl\card\card.component.ts)
+- [ ] [Ü rating](theory-app\src\app\photos-mdl\stars\stars.component.ts)
+
+<!-- LAB:
+in photos-mdl eine komponente rating
+mit zwei Props Input-starsNumber & starsString
+ 
+starsString = '*'.repeat(starsNumber);
+ 
+photos-mdl hat auch eine Overview-Komponente
+rating-Komponente wird über Overview gerendert
+ -->
+
