@@ -123,9 +123,10 @@ commit
 
 ## M011 | DIRECTIVES
 
-- [ ] directive, directive types
-- [ ] ngFor, ngIf, ngSwitch
-- [ ] ng-template
+- [x] directive, directive types
+- [x] ngFor, ngIf, ngSwitch
+- [x] ng-template
+- [ ] [Ü photos](theory-app\src\app\photos-mdl\photo-album\photo-album.component.ts)
 
 <!-- 
 LAB
@@ -134,3 +135,5 @@ LAB
 in ein Array diese 15 Bilder packen
 Array durchiterieren und dabei soll die 
 Komponente Photo wiederholt werden -->
+
+## M012 | COMPONENTS & LIFECYCLE
