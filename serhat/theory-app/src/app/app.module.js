@@ -10,6 +10,8 @@ const platform_browser_1 = require("@angular/platform-browser");
 const core_1 = require("@angular/core");
 const app_routing_module_1 = require("./app-routing.module");
 const app_component_1 = require("./app.component");
+const demos_mdl_module_1 = require("./demos-mdl/demos-mdl.module");
+const photos_mdl_module_1 = require("./photos-mdl/photos-mdl.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -19,7 +21,9 @@ AppModule = __decorate([
         ],
         imports: [
             platform_browser_1.BrowserModule,
-            app_routing_module_1.AppRoutingModule
+            app_routing_module_1.AppRoutingModule,
+            demos_mdl_module_1.DemosMdlModule,
+            photos_mdl_module_1.PhotosMdlModule
         ],
         providers: [],
         bootstrap: [app_component_1.AppComponent]

@@ -144,6 +144,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "theory-app"
+    }
+  },
+  "defaultProject": "theory-app",
+  "cli": {
+    "analytics": "60f0a9b2-9bfb-4cd4-b247-a2e260e6cf4f"
+  }
 }
