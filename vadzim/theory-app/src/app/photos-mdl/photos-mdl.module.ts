@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RatingComponent } from './rating/rating.component';
 import { PhotosOverviewComponent } from './photos-overview/photos-overview.component';
 import { PhotoComponent } from './photo/photo.component';
+import { PhotoAlbumComponent } from './photo-album/photo-album.component';
 
 
 
 @NgModule({
-  declarations: [RatingComponent, PhotosOverviewComponent, PhotoComponent],
+  declarations: [RatingComponent, PhotosOverviewComponent, PhotoComponent, PhotoAlbumComponent],
   imports: [
     CommonModule
   ],

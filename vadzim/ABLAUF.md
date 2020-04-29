@@ -121,4 +121,16 @@ Rahmen für die Komponente
 
 commit
 
-## M011 |
+## M011 | DIRECTIVES
+
+- [ ] directive, directive types
+- [ ] ngFor, ngIf, ngSwitch
+- [ ] ng-template
+
+<!-- 
+LAB
+
+15 Bilder holen
+in ein Array diese 15 Bilder packen
+Array durchiterieren und dabei soll die 
+Komponente Photo wiederholt werden -->
