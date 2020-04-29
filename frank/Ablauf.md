@@ -68,6 +68,11 @@ commit ausgeführt
 
 ## M011 | directives
 
-- [ ] directive, directive types
-- [ ] ngFor, ngFor, ngSwitch
-- [ ] ngTemplate
+- [x] directive, directive types
+- [x] ngFor, ngFor, ngSwitch
+- [x] ngTemplate
+- [x] [Übung PhotoAlum](theory-app\src\app\photos-mdl\photoalbum\photoalbum.component.ts)
+
+## M012 | components & lifecycle
+
+- [ ] 
