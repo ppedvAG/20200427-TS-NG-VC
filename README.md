@@ -4,7 +4,7 @@ Ein Kurs von PPEDV
 
 27 April 2020, Virtual Classroom :rocket:
 
-[MODULE von FRANK](frank/ABLAUF.md)
+[MODULE von FRANK](frank/Ablauf.md)
 
 [MODULE von MAXIMILIAN](maximilian/ABLAUF.md)
 

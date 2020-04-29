@@ -12,7 +12,7 @@ export class TimeComponent implements OnInit {
 
   constructor() { 
     // window.setInterval(this.showTime, 1000); // wird nicht ausgeführt
-    window.setInterval(() => this.showTime(), 1000);
+    // window.setInterval(() => this.showTime(), 1000); // auskommentiert, damit die app sich nicht ständig refreshet
   }
 
   showTime() {

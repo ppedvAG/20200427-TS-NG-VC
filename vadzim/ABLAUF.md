@@ -111,7 +111,7 @@ rating-Komponente wird über Overview gerendert
 - [ ] class-object
 - [ ] ngStyle
 - [ ] ngClass
-- [ ] _classname_
+- [ ] className
 
 <!-- 
 LAB
@@ -130,7 +130,6 @@ commit
 
 <!-- 
 LAB
-
 15 Bilder holen
 in ein Array diese 15 Bilder packen
 Array durchiterieren und dabei soll die 
