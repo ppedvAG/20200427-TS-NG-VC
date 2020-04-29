@@ -6,3 +6,11 @@
 <app-card [suit]="'diamonds'" [value]="'Q'"></app-card>
 <app-card [suit]="'spades'" [value]="'K'"></app-card>
 <app-card [suit]="'blabla'" [value]="'B'"></app-card>
+
+<h1>furniture component!</h1>
+<app-furniture [someFurniture]="myCouch"></app-furniture>
+<app-furniture [someFurniture]="myUCouch"></app-furniture>
+
+<h1>Roman Numbers</h1>
+<app-roman-number *ngFor="let num of arabNumbers"
+[zahl]="num"></app-roman-number>
