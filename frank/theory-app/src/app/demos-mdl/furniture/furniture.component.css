@@ -1,0 +1,27 @@
+/* @Input() myCouch: Furniture.Sofa;
+  @Input() myTable: Furniture.Tisch;
+  @Input() myUCouch: Furniture.UEckSofa;
+  @Input() myAngleCouch: Furniture.EckSofa;
+  @Input() myFurniture: Furniture.Möbelstück; */
+
+  .furniture {
+    color: grey;
+  }
+
+  .table {
+    border: thin solid;
+    color: rgb(252, 182, 7);
+  }
+
+  .couch {
+    border: medium dotted;
+    color: green;
+  }
+  .ucouch {
+    border: thick groove;
+    color: rgb(245, 138, 39);
+  }
+  .anglecouch {
+    border: thick double;
+    color: rgb(33, 102, 230);
+  }

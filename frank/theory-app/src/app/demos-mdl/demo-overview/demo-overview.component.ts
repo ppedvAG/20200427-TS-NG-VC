@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import * as Furniture from '../models/furniture';
+import { Sofa } from '../models/furniture';
+import { UEckSofa } from '../models/furniture';
 
 @Component({
   selector: 'app-demo-overview',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DemoOverviewComponent implements OnInit {
 
-  constructor() { }
+  myUCouch: Furniture.UEckSofa;
+  myCouch: Furniture.Sofa;
+
+  constructor() {
+    this.myCouch = new Sofa(350, 124, 50, 'red');
+    this.myUCouch = new UEckSofa(350, 124, 50, 'red', 3, 4);
+  }
 
   ngOnInit(): void {
+
   }
 
 }

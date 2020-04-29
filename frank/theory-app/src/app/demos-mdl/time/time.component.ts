@@ -11,7 +11,8 @@ export class TimeComponent implements OnInit {
   timestring: string;
 
   constructor() {
-    window.setInterval(() => this.showTime(), 1000);
+   /*  window.setInterval(() => this.showTime(), 1000); */
+   this.showTime();
   }
 
   showTime() {
