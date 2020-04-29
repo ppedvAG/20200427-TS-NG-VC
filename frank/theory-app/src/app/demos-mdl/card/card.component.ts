@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+  @Input() value: string;
+  @Input() suit: string;
+
+
   constructor() { }
+
+  getColor(): string {
+    if (this.suit === 'hearts' || this.suit === 'diamonds') {
+      return 'red';
+    }
+    return 'black';
+  }
 
   ngOnInit(): void {
   }

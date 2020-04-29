@@ -55,3 +55,4 @@ commit ausgeführt
 
 - [ ] intro
 - [ ] project structure
+- [ ] übung,  in photos-mdl eine komponente rating mit zwei Props Input-starsNumber & starsString starsString = '*'.repeat(starsNumber); 
