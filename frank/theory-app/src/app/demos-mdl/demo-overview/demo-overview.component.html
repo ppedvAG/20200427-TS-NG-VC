@@ -1,0 +1,18 @@
+
+
+<app-time></app-time>
+<h2>card demo</h2>
+<app-card [value]="'K'" [suit]="'hearts'"></app-card>
+<app-card [value]="'D'" [suit]="'spades'"></app-card>
+<app-card [value]="'B'" [suit]="'diamonds'"></app-card>
+
+<hr>
+<app-furniture [someFurniture]="myCouch" ></app-furniture>
+<app-furniture [someFurniture]="myUCouch" ></app-furniture>
+<hr>
+
+<h2>roman numbers</h2>
+
+<app-roman-number  *ngFor="let num of arabNumbers" [zahl]="num"></app-roman-number>
+
+<hr>

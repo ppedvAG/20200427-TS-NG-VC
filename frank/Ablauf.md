@@ -48,4 +48,26 @@ commit ausgeführt
 
 ## M006 | Interfaces
 
-- [ ] [Interfaces](M006-Demo-Interfaces/interfaces.ts)
+- [x] [Interfaces](M006-Demo-Interfaces/interfaces.ts)
+- [ ] todo -> type narrowing and type guard ???; promises (s. fetch Befehl in M006-Lab-todo)
+  
+## M007 | NG getting started
+
+- [ ] intro
+- [ ] project structure
+- [ ] übung,  in photos-mdl eine komponente rating mit zwei Props Input-starsNumber & starsString starsString = '*'.repeat(starsNumber);
+
+## M010 | NG & CSS
+
+- [ ] :host
+- [ ] style-object
+- [ ] class-object
+- [ ] ngStyle
+- [ ] ngClass
+- [ ] _classname_
+
+## M011 | directives
+
+- [ ] directive, directive types
+- [ ] ngFor, ngFor, ngSwitch
+- [ ] ngTemplate
