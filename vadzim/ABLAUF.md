@@ -26,18 +26,19 @@ commit
 
 ## M002 | TYPES
 
-- [ ] [primitives, type object, typeof, casting](M002-Demo-Types/types.ts)
-- [ ] [assertion](M002-Demo-Types/assertion.ts)
-- [ ] [Ü Taschenrechner](M001-Lab-Rechner/rechner.ts)
+- [x] [primitives, type object, typeof, casting](M002-Demo-Types/types.ts)
+- [x] [assertion](M002-Demo-Types/assertion.ts)
+- [x] [any vs. unknown](M002-Demo-Types/anyVsUnknown.ts)
+- [x] [Ü Taschenrechner](M001-Lab-Rechner/rechner.ts)
 
 commit
 
 ## M003 | FUNCTION
 
-- [ ] return type
-- [ ] function type
-- [ ] generic function
-- [ ] [demo](M003-Demo-Functions/functions.ts)
+- [x] return type
+- [x] function type
+- [x] generic function
+- [x] [demo](M003-Demo-Functions/functions.ts)
 
 commit
 
@@ -51,9 +52,9 @@ commit
 
 ## M005 | UNION TYPE & LITERAL TYPE
 
-- [ ] [union type & string literal type](M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
-- [ ] [enums](M005-Demo-UnionTypeNLiteralType/enums.ts)
-- [ ] [Ü Pizzabestellung](M005-Lab-PizzaBestellung\pizza.ts)
+- [x] [union type & string literal type](M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
+- [x] [enums](M005-Demo-UnionTypeNLiteralType/enums.ts)
+- [x] [Ü Pizzabestellung](M005-Lab-PizzaBestellung\pizza.ts)
 
 commit
 
@@ -62,8 +63,45 @@ commit
 - [x] [interfaces](M006-Demo-Interfaces/interfaces.ts)
 - [x] [Ü Todos](M006-Lab-TodoListe\todos.ts)
 
-<!-- any & unknown -->
+commit
 
 <!-- type narrowing & type guards -->
 
 <!-- promise -->
+
+## M007 | NG GETTING STARTED
+
+- [x] intro
+- [x] project structure
+- [x] ecosystem
+- [x] ng cli
+
+## M008 | NG MODULES
+
+- [ ] ng modules
+- [ ] js/ts modules
+- [ ] node modules
+- [ ] [demos mdl](theory-app\src\app\demos-mdl\demos-mdl.module.ts)
+
+## M009 | COMPONENTS INTRO
+
+- [ ] component template
+- [ ] component selector
+- [ ] imports of components
+- [ ] [demo time](theory-app\src\app\demos-mdl\time\time.component.ts)
+- [ ] [demo card](theory-app\src\app\demos-mdl\card\card.component.ts)
+- [ ] [Ü rating](theory-app\src\app\photos-mdl\rating\rating.component.ts)
+
+<!-- LAB:
+in photos-mdl eine komponente rating
+mit zwei Props Input-starsNumber & starsString
+
+starsString = '*'.repeat(starsNumber);
+
+photos-mdl hat auch eine Overview-Komponente
+rating-Komponente wird über Overview gerendert
+ -->
+
+ commit
+
+ 

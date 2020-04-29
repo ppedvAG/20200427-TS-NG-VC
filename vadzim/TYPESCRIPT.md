@@ -53,6 +53,8 @@ OFFIZIELLE QUELLEN
   - TSLint / ESLint (muss für TS noch eingestellt werden)
   - open in browser
   - live server (auto update im Browser bei Änderungen in HTML,JS oder CSS)
+  - JavaScript Snippets
+  - auto rename tag von Jun Han
 
 <!-- #endregion -->
 <!-- ############################################################################## -->

@@ -8,7 +8,7 @@
 let tbodyId = document.getElementById('tabellenInhalt');
 fetch('https://jsonplaceholder.typicode.com/todos')
   .then(response => response.json())
-  .then(json => renderTodos(json))
+  .then(json => renderTodos(json))  
 
 function renderTodos(todos: Array<Todo>) {
     for (const todo of todos) {
