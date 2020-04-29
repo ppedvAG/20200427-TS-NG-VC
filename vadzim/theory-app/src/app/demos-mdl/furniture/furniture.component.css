@@ -1,0 +1,20 @@
+.furniture {
+    color: grey;
+}
+
+.table {
+    border: thin solid;
+    color: rgb(231, 223, 101);
+}
+.couch {
+    border: medium dotted;
+    color: rgb(127, 231, 101);
+}
+.anglecouch {
+    border: thick double;
+    color: rgb(101, 179, 231);
+}
+.ucouch {
+    border: thick groove;
+    color: rgb(231, 101, 231);
+}
