@@ -1,0 +1,3 @@
+<!-- Number 4 should not be displayed. -->
+<p *ngIf="zahl !== 4; else vier">{{this.zahl}}: {{this.romNumbers[zahl]}}</p>
+<ng-template #vier>4 is not permitted, you idiot.</ng-template>

@@ -10,11 +10,12 @@ const core_1 = require("@angular/core");
 const common_1 = require("@angular/common");
 const stars_component_1 = require("./stars/stars.component");
 const photos_overview_component_1 = require("./photos-overview/photos-overview.component");
+const photos_component_1 = require("./photos/photos.component");
 let PhotosMdlModule = class PhotosMdlModule {
 };
 PhotosMdlModule = __decorate([
     core_1.NgModule({
-        declarations: [stars_component_1.StarsComponent, photos_overview_component_1.PhotosOverviewComponent],
+        declarations: [stars_component_1.StarsComponent, photos_overview_component_1.PhotosOverviewComponent, photos_component_1.PhotosComponent],
         imports: [
             common_1.CommonModule
         ],
