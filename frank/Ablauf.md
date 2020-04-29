@@ -55,4 +55,14 @@ commit ausgeführt
 
 - [ ] intro
 - [ ] project structure
-- [ ] übung,  in photos-mdl eine komponente rating mit zwei Props Input-starsNumber & starsString starsString = '*'.repeat(starsNumber); 
+- [ ] übung,  in photos-mdl eine komponente rating mit zwei Props Input-starsNumber & starsString starsString = '*'.repeat(starsNumber);
+
+## M010 | NG & CSS
+
+- [ ] :host
+- [ ] style-object
+- [ ] class-object
+- [ ] ngStyle
+- [ ] ngClass
+- [ ] _classname_
+
