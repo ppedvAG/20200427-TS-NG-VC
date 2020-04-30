@@ -1,3 +1,4 @@
 <div id="container">
+    <button (click)=addPhoto()>ADD</button>
     <app-photo *ngFor="let ph of photos" [myPhoto]="ph" class=photoItem></app-photo>
 </div>

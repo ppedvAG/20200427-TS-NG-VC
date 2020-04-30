@@ -1,5 +1,6 @@
 <h2>ngform component</h2>
-<form action="#" ngForm #myForm="ngForm">
+<!-- <form action="#" #myForm="ngForm"> -->
+    <form action="#">
 <input ngModel #inp1="ngModel" type="text" required="required" minlength="3" name="pw1">
 <input ngModel #inp2="ngModel" type="text" required="required" minlength="3" name="pw2">
 <button [disabled]="!inp1.valid || !inp2.valid || inp1.value !== inp2.value" #btn>CONFIRM</button>
@@ -11,9 +12,9 @@
 <p>inp1.pristine: {{inp1.pristine}}</p>
 <p>inp1.valid: {{inp1.valid}}</p>
 
-<h3>ngForm Props</h3>
+<!-- <h3>ngForm Props</h3>
 <p>myForm.value: {{myForm.value}}</p>
-<p>myForm.value.pw1: {{myForm.value.pw1}}</p>
+<p>myForm.value.pw1: {{myForm.value.pw1}}</p> -->
 
 </form>
 <hr>

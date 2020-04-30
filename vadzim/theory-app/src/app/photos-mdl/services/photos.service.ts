@@ -28,6 +28,14 @@ export class PhotosService {
     )
   }
 
+  addPhoto(photo: Photo): Observable<Photo> {
+    return this.http.post<Photo>(this.photosUrl, photo, httpOptions)
+    .pipe(
+      tap((newPhoto: Photo) => this.log(`photo hinzugefügt mit der id= ${newPhoto.id}`)),
+      catchError(this.buildErrorCallback<Photo>('addPhodo', photo))
+    );
+  }
+
   log(message: string) {
     this.ms.add(`PhotosService: ${message}`)
   }
