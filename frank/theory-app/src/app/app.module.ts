@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DemosMdlModule } from './demos-mdl/demos-mdl.module';
 import { PhotosMdlModule } from './photos-mdl/photos-mdl.module';
 import { HomeComponent } from './home/home.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     DemosMdlModule,
-    PhotosMdlModule
+    PhotosMdlModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

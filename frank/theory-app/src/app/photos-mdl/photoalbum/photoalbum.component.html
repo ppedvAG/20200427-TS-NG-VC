@@ -3,3 +3,7 @@
 <div id="container">
   <app-photos *ngFor="let index of myPhotoArray" [myPhoto]=index class=photoItem></app-photos>
 </div>
+
+<button (click)=addPhoto()>Add</button>
+<br>
+<button mat-button color="accent">Hello Material</button>

@@ -28,10 +28,19 @@ export class PhotosService {
   getPhotos(): Observable<MyPhotos[]> {
     return this.http.get<MyPhotos[]>(this.photosurl)
     .pipe(
-      tap(_ => this.log('geholt Fotor')),
+      tap(_ => this.log('geholt Foto')),
       catchError(this.buildErrorCallback('getPhotos', []))
     )
   }
+
+  addPhoto(photo: MyPhotos): Observable<MyPhotos> {
+    return this.http.put<MyPhotos>(this.photosurl, photo, httpOptions)
+    .pipe(
+      tap((newPhoto: MyPhotos) => this.log(`photo hinzugefügt mit der id= ${newPhoto.id}`)),
+      catchError(this.buildErrorCallback<MyPhotos>('addPhoto', photo))
+    );
+  }
+
 
 
   buildErrorCallback<T>(operation = 'operation', result: T) {
@@ -42,7 +51,8 @@ export class PhotosService {
     }
   }
   log(message: string) {
-    this.msg.add(`TodoService: ${message}`)
+    console.log('message :>> ', message);
+    this.msg.add(`PhotoService: ${message}`);
   }
 
 }
