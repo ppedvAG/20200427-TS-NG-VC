@@ -1,0 +1,15 @@
+<h2>Pipes component!</h2>
+
+<pre [ngStyle]="{'font-style': 'italic; font-weight: bold'}">date | 'shortTime'</pre>
+<p>{{ date | date:'shortTime' }}</p>
+
+<pre [ngStyle]="{'font-style': 'italic; font-weight: bold'}">date | date:'dd/MM/yy'</pre>
+<p>{{ date | date:'dd/MM/yy' }}</p>
+
+<pre [ngStyle]="{'font-style': 'italic; font-weight: bold'}">date | date:'MMMM/dd/yy'
+  MMMM for full word
+</pre>
+<p>{{ date | date:'MMMM/dd/yy' }}</p>
+
+<pre [ngStyle]="{'font-style': 'italic; font-weight: bold'}">date | date:'MMMM/dd/yy'</pre>
+<p>{{ date | date:'MMMM/dd/yy' }}</p>

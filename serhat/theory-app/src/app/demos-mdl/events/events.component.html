@@ -1,0 +1,12 @@
+<h2>events component!</h2>
+
+<pre>Event changes background of both paragraphs</pre>
+<div [class.home]="isHome" [class.away]="!isHome" (mouseenter)="home()" (mouseleave)="away()">{{getText()}}</div>
+<div [class.home]="isHome" [class.away]="!isHome" (mouseenter)="home()" (mouseleave)="away()">{{getText()}}</div>
+
+<pre>Event changes background of both paragraphs</pre>
+<aside [class.home]="isHome1" [class.away]="!isHome1" (mouseenter)="home1($event)" (mouseleave)="away1($event)">{{getText1()}}</aside>
+<aside [class.home]="isHome1" [class.away]="!isHome1" (mouseenter)="home1($event)" (mouseleave)="away1($event)">{{getText1()}}</aside>
+
+
+<hr>

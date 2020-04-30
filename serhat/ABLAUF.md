@@ -57,25 +57,21 @@ commit
 - [ ] ecosystem
 - [ ] ng cli
 
-[12:23] vadzimn@ppedv.de
-    
-
- 
 ## M008 | NG MODULES
- 
+
 - [ ] ng modules
 - [ ] js/ts modules
 - [ ] node modules
-- [ ] [demos mdl](theory-app\src\app\demos-mdl\demos-mdl.module.ts)
+- [ ] [demos mdl](theory-app/src/app/demos-mdl/demos-mdl.module.ts)
 
 ## M009 | COMPONENTS INTRO
 
 - [ ] component template
 - [ ] component selector
 - [ ] imports of components
-- [ ] [demo time](theory-app\src\app\demos-mdl\time\time.component.ts)
-- [ ] [demo card](theory-app\src\app\demos-mdl\card\card.component.ts)
-- [ ] [Ü rating](theory-app\src\app\photos-mdl\stars\stars.component.ts)
+- [ ] [demo time](theory-app/src/app/demos-mdl/time/time.component.ts)
+- [ ] [demo card](theory-app/src/app/demos-mdl/card/card.component.ts)
+- [ ] [Ü rating](theory-app/src/app/photos-mdl/stars/stars.component.ts)
 
 <!-- LAB:
 in photos-mdl eine komponente rating
@@ -87,3 +83,27 @@ photos-mdl hat auch eine Overview-Komponente
 rating-Komponente wird über Overview gerendert
  -->
 
+## M010 | NG & CSS
+
+- [ ] style-object
+- [ ] class-object
+- [ ] ngStyle
+- [ ] ngClass
+- [ ] className
+
+## M011 | DIRECTIVES
+
+- [ ] directive, directive types
+- [ ] ngFor, ngIf, ngSwitch
+- [ ] ng-template
+- [ ] Ü photos
+
+## M012 | COMPONENTS & LIFECYCLE
+
+- [ ] templates & 'inline-template'
+- [ ] 'inline-styles'
+- [ ] class fields / props & template variables
+- [ ] components lifecycle & lifecycle hooks
+- [ ] [pipes](theory-app/src/app/demos-mdl/pipes/pipes.component.ts)
+
+## M013 | EVENTS
