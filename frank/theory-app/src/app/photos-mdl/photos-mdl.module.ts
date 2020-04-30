@@ -4,13 +4,16 @@ import { RatingsComponent } from './ratings/ratings.component';
 import { PhotosOverviewComponent } from './photos-overview/photos-overview.component';
 import { PhotosComponent } from './photos/photos.component';
 import { PhotoalbumComponent } from './photoalbum/photoalbum.component';
+import { LoginformComponent } from './loginform/loginform.component';
+import { FormsModule } from '@angular/forms';
 
 
 
 @NgModule({
-  declarations: [RatingsComponent, PhotosOverviewComponent, PhotosComponent, PhotoalbumComponent],
+  declarations: [RatingsComponent, PhotosOverviewComponent, PhotosComponent, PhotoalbumComponent, LoginformComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     PhotosOverviewComponent

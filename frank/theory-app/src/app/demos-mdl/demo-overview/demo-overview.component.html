@@ -19,3 +19,22 @@
 
 <h2>Pipes</h2>
 <app-pipes></app-pipes>
+
+<h2>Events</h2>
+<app-events></app-events>
+
+<h2>Outputs</h2>
+<label for="seconds">Eingabe der Timer Sekunden:  </label>
+<input ngModel #inpSeconds="ngModel" type="number" name="seconds" id="secs" placeholder="Sekunden" max=30>
+<app-outputs [seconds]=inpSeconds.value (startEvent)="startHandler()" (tickEvent)="tickHandler($event)" (endeEvent)="endHandler($event)" ></app-outputs>
+
+<hr>
+<h2>ngForm</h2>
+<app-ngform></app-ngform>
+
+<div>
+  <p id="pId1">{{startMessage}}</p>
+  <p id="pId2">{{timerMessage}}</p>
+  <p id="pId3">{{endMessage}}</p>
+  <p id="pId4">{{endMessagFromChild}}</p>
+</div>

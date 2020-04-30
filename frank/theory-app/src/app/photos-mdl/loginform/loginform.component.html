@@ -1,0 +1,17 @@
+<p>loginform component!</p>
+
+<form action="#" ngForm #login="ngForm">
+  <input ngModel #inp1="ngModel" type="text" required="required" minlength="3" name="userName" placeholder="Username" style="margin:3mm">
+  <input ngModel #inp2="ngModel" type="password" required="required" minlength="5" name="password" placeholder="Password">
+  <button #btn [disabled]="!login.valid" (click)="Login(inp1.value, inp2.value)">Login</button>
+  <p *ngIf="loginCorrect === 2" style="color: crimson;">Login incorrect</p>
+  <p *ngIf="loginCorrect === 3" style="color: crimson;">Username unbekannt</p>
+  <p *ngIf="loginCorrect === 1" style="color: green;">Login correct!  Welcome back Peter</p>
+</form>
+
+<h3>ngForm props</h3>
+<p>myForm.value: {{login.value}}</p>
+<p>myForm.valid: {{login.valid}}</p>
+<p>myForm.value.pw1: {{login.value.pw1}}</p>
+
+
