@@ -23,7 +23,7 @@
 <h2>outputs component</h2>
 <!-- <input ngModel type="number" placeholder="seconds" max="15" #inpSeconds="ngModel"> 
 Wenn die Methode doch unten bleibt, dann löst ngModel das Problem mit der vorzeitigen Initialisierung von seconds -->
-<input type="number" placeholder="seconds" max="15">
+<input type="number" placeholder="seconds" max="15" #inpSeconds>
 <button (click)="clickHandler(+inpSeconds.value)">START</button>
 <app-outputs [seconds]="scnds" (startEvent)="startHandler()" (tickEvent)="tickHandler($event)" (endEvent)="endHandler($event)">
 </app-outputs>
