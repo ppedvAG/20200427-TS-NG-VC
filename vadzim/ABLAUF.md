@@ -160,16 +160,16 @@ commit
 
 ## M014 | FORMS
 
-- [ ] FormsModule
-- [ ] ngModel
-- [ ] ngForm
-- [ ] two way data binding [(ngModel)]
-- [ ] [demo ngform](theory-app/src/app/demos-mdl/ngform/ngform.component.ts)
-- [ ] [Ü login form](theory-app/src/app/photos-mdl/login-form/login-form.component.ts)
+- [x] FormsModule
+- [x] ngModel
+- [x] ngForm
+- [x] two way data binding [(ngModel)]
+- [x] [demo ngform](theory-app/src/app/demos-mdl/ngform/ngform.component.ts)
+- [x] [Ü login form](theory-app/src/app/photos-mdl/login-form/login-form.component.ts)
 
 commit
 
-## M015 |
+## M015 | ROUTING
 
 commit
 
@@ -180,3 +180,9 @@ commit
 ## M017 |
 
 commit
+
+<!-- 
+service
+http
+routing
+ -->
