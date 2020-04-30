@@ -1,0 +1,12 @@
+<h2>ngform component</h2>
+<input ngModel #inp1="ngModel" type="text" required="required" minlength="3">
+<input ngModel #inp2="ngModel" type="text" required="required" minlength="3">
+<button [disabled]="true" #btn>CONFIRM</button>
+<p *ngIf="btn.disabled">Entweder keine Eingaben oder die Eingaben stimmen nicht überein</p>
+
+<h3>ngModel props</h3>
+<p>inp1.value: {{inp1.value}}</p>
+<p>inp1.touched: {{inp1.touched}}</p>
+<p>inp1.pristine: {{inp1.pristine}}</p>
+<p>inp1.valid: {{inp1.valid}}</p>
+<hr>

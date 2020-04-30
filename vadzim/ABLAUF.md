@@ -147,12 +147,28 @@ Komponente Photo wiederholt werden -->
 - [x] components lifecycle & lifecycle hooks
 - [x] [pipes](vadzim/theory-app/src/app/demos-mdl/pipes/pipes.component.html)
 
+commit
+
 ## M013 | EVENTS
+
+- [ ] event binding über runde Klammern
+- [ ] event object, event.target, event types
+- [ ] [demo events](vadzim\theory-app\src\app\demos-mdl\events\events.component.ts)
+
+commit
 
 ## M014 |
 
+commit
+
 ## M015 |
+
+commit
 
 ## M016 |
 
+commit
+
 ## M017 |
+
+commit
