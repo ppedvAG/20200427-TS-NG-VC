@@ -1,0 +1,25 @@
+<p>login-form works!</p>
+<form action="#" ngForm #myForm="ngForm">
+  <!-- input[required minlength=3]*2+button[disabled]{CONFIRM} -->
+  <table>
+    <tr>
+      <td>User: </td>
+      <td><input ngModel #inpUser="ngModel" type="text" required="required" name="user"></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><input ngModel #inpPw="ngModel" type="text" required="required" name="pw"></td>
+    </tr>
+  </table>
+
+  <button type="submit" (click)="checkLogin(inpUser.value, inpPw.value)">CONFIRM</button>
+
+  <p *ngIf="this.isValidUser === false && inpUser.touched">Wrong user.</p>
+  <p *ngIf="this.isValidPw === false && inpPw.touched">Wrong password.</p>
+  <p *ngIf="this.isValidUser && this.isValidPw && inpUser.touched && inpPw.touched">Login successful.</p>
+
+  <h3>ngForm Props</h3>
+  <p>myForm.value: {{myForm.value}}</p>
+  <p>myForm.value.user: {{myForm.value.user}}</p>
+  <p>myForm.value.pw: {{myForm.value.pw}}</p>
+</form>

@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { StarsComponent } from './stars/stars.component';
 import { PhotosOverviewComponent } from './photos-overview/photos-overview.component';
 import { PhotosComponent } from './photos/photos.component';
 import { PhotoalbumComponent } from './photoalbum/photoalbum.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 
 
 @NgModule({
-  declarations: [StarsComponent, PhotosOverviewComponent, PhotosComponent, PhotoalbumComponent],
+  declarations: [StarsComponent, PhotosOverviewComponent, PhotosComponent, PhotoalbumComponent, LoginFormComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   bootstrap: [PhotosOverviewComponent],
   exports: [PhotosOverviewComponent]
