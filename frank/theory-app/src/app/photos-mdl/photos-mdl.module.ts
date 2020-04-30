@@ -6,6 +6,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { PhotoalbumComponent } from './photoalbum/photoalbum.component';
 import { LoginformComponent } from './loginform/loginform.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 
@@ -13,7 +14,8 @@ import { FormsModule } from '@angular/forms';
   declarations: [RatingsComponent, PhotosOverviewComponent, PhotosComponent, PhotoalbumComponent, LoginformComponent],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   exports: [
     PhotosOverviewComponent
