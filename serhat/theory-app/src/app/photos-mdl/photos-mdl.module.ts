@@ -6,6 +6,7 @@ import { PhotosOverviewComponent } from './photos-overview/photos-overview.compo
 import { PhotosComponent } from './photos/photos.component';
 import { PhotoalbumComponent } from './photoalbum/photoalbum.component';
 import { LoginFormComponent } from './login-form/login-form.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -13,7 +14,8 @@ import { LoginFormComponent } from './login-form/login-form.component';
   declarations: [StarsComponent, PhotosOverviewComponent, PhotosComponent, PhotoalbumComponent, LoginFormComponent],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   bootstrap: [PhotosOverviewComponent],
   exports: [PhotosOverviewComponent]

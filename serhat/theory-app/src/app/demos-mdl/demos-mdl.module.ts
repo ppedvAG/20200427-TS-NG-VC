@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { MatSliderModule } from '@angular/material/slider';
 import { TimeComponent } from './time/time.component';
 import { CardComponent } from './card/card.component';
 import { DemoOverviewComponent } from './demo-overview/demo-overview.component';
@@ -25,7 +26,8 @@ import { NgformComponent } from './ngform/ngform.component';
     NgformComponent],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    MatSliderModule
   ],
   bootstrap: [DemoOverviewComponent, FurnitureComponent],
   exports: [
