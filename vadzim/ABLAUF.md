@@ -145,23 +145,31 @@ Komponente Photo wiederholt werden -->
 - [x] 'inline-styles'
 - [x] class fields / props & template variables
 - [x] components lifecycle & lifecycle hooks
-- [x] [pipes](vadzim/theory-app/src/app/demos-mdl/pipes/pipes.component.html)
+- [x] [pipes](theory-app/src/app/demos-mdl/pipes/pipes.component.html)
 
 commit
 
 ## M013 | EVENTS
 
-- [ ] event binding über runde Klammern
-- [ ] event object, event.target, event types
-- [ ] [demo events](vadzim\theory-app\src\app\demos-mdl\events\events.component.ts)
+- [x] event binding über runde Klammern
+- [x] event object, event.target, event types
+- [x] [demo events](theory-app/src/app/demos-mdl/events/events.component.ts)
+- [x] [demo outputs](theory-app/src/app/demos-mdl/outputs/outputs.component.ts)
 
 commit
 
-## M014 |
+## M014 | FORMS
+
+- [x] FormsModule
+- [x] ngModel
+- [x] ngForm
+- [x] two way data binding [(ngModel)]
+- [x] [demo ngform](theory-app/src/app/demos-mdl/ngform/ngform.component.ts)
+- [x] [Ü login form](theory-app/src/app/photos-mdl/login-form/login-form.component.ts)
 
 commit
 
-## M015 |
+## M015 | ROUTING
 
 commit
 
@@ -172,3 +180,9 @@ commit
 ## M017 |
 
 commit
+
+<!-- 
+service
+http
+routing
+ -->

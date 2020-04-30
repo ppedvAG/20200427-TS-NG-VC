@@ -25,7 +25,7 @@ commit ausgeführt
 
 - [x] [primitives, type object, typeof, casting](M002-Demo-Types/types.ts)
 - [x] [Übung Taschenrechner](M002-Lab-Calculator/calc.ts)
-- [ ] [Assertion](vadzim\M002-Demo-Types\assertion.ts)
+- [ ] [Assertion](vadzim/M002-Demo-Types/assertion.ts)
 
 ## M003 | Functions
 
@@ -43,8 +43,8 @@ commit ausgeführt
 ## M005 | union types & string literal type
 
 - [x] [union types](M005-Demo-Union-Literals/union.ts)
-- [x] [enumerations](M005-Demo-Union-Literals\enums.ts)
-- [x] [Übung Pizza Bestellung](M005-Lab-PizzaBestellung\pizza.ts)
+- [x] [enumerations](M005-Demo-Union-Literals/enums.ts)
+- [x] [Übung Pizza Bestellung](M005-Lab-PizzaBestellung/pizza.ts)
 
 ## M006 | Interfaces
 
@@ -68,6 +68,33 @@ commit ausgeführt
 
 ## M011 | directives
 
-- [ ] directive, directive types
-- [ ] ngFor, ngFor, ngSwitch
-- [ ] ngTemplate
+- [x] directive, directive types
+- [x] ngFor, ngFor, ngSwitch
+- [x] ngTemplate
+- [x] [Übung PhotoAlum](theory-app/src/app/photos-mdl/photoalbum/photoalbum.component.ts)
+
+## M012 | components & lifecycle
+
+- [ ] templates $ inline template
+- [ ] inline styles
+- [ ] clss fields / props & template variables
+- [ ] components lifecycle & lifecycle hooks
+- [ ] pipes
+
+## M 013 | events
+
+- [ ] event binding
+- [ ] outputs
+- [ ] demo events
+- [ ] demo output
+
+## M014 | Forms
+
+- [ ] FormsModule
+- [ ] ngModel
+- [ ] ngForm
+- [ ] two-way-data-binding [(ngModel)]
+- [ ] [demo Login/ PWD Confirm](theory-app/src/app/demos-mdl/ngform/ngform.component.ts)
+- [ ] [Übung Login](theory-app/src/app/photos-mdl/loginform/loginform.component.ts)
+
+## M015 | 

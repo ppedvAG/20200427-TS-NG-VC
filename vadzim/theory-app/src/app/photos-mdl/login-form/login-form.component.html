@@ -1,0 +1,9 @@
+<h2>login-form component</h2>
+<!-- <form action="#" ngForm #logInForm="ngForm"> -->
+    <form action="#" ngForm>
+    <input [(ngModel)]="userName" type="text" placeholder="username" [ngModelOptions]="{standalone: true}">
+    <input [(ngModel)]="userPW" type="text" placeholder="password" [ngModelOptions]="{standalone: true}">
+    <button (click)="checkLogForm()">LOG IN</button>
+    <!-- <p *ngIf="isCorrect">test</p> -->
+    <p>{{message}}</p>
+</form>

@@ -1,0 +1,29 @@
+<h2>ngform component!</h2>
+
+<h3>Variante1</h3>
+<input ngModel #inp1="ngModel" type="text" required="required" minlength="3">
+<input ngModel #inp2="ngModel" type="text" required="required" minlength="3">
+<button #btn [disabled]="inp1.value !== inp2.value || !inp1.value || !inp2.valid">Confirm</button>
+
+<p *ngIf="btn.disabled">Entweder unterschiedliche Länge oder unterschiedlich</p>
+
+<h3>ngModel props</h3>
+<p>inp1.value: {{inp1.value}}</p>
+<p>inp1.touched: {{inp1.touched	}}</p>
+<p>inp1.untouched: {{inp1.untouched	}}</p>
+<p>inp1.pristine: {{inp1.pristine}}</p>
+<p>inp1.valid: {{inp1.valid}}</p>
+<hr>
+
+<h3>Variante 2</h3>
+<form action="#" ngForm #myForm="ngForm">
+  <input ngModel #inp3="ngModel" type="text" required="required" minlength="3" name="pw1">
+  <input ngModel #inp4="ngModel" type="text" required="required" minlength="3" name="pw2">
+  <button #btn2 [disabled]="inp3.value !== inp4.value || !inp3.value || !inp4.valid">Confirm</button>
+</form>
+
+<h3>ngForm props</h3>
+<p>myForm.value: {{myForm.value}}</p>
+<p>myForm.value.pw1: {{myForm.value.pw1}}</p>
+
+<p *ngIf="btn2.disabled">Entweder unterschiedliche Länge oder unterschiedlich</p>

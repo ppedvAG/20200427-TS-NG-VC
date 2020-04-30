@@ -1,0 +1,12 @@
+<h2>events component</h2>
+<pre>event bei einem P triggert ebenfalls event für anderes p</pre>
+<p [class.home]="isHome" [class.away]="!isHome" (mouseenter)="home()" (mouseleave)="away()" >{{getText()}}</p>
+<hr>
+<p [class.home]="isHome" [class.away]="!isHome" (mouseenter)="home()" (mouseleave)="away()" >{{getText()}}</p>
+<br>
+<br>
+
+<pre>mit event object</pre>
+<p  (mouseenter)="homeObj($event)" (mouseleave)="awayObj($event)">{{myText}}</p>
+<br><br>
+<p  (mouseenter)="homeObj($event)" (mouseleave)="awayObj($event)">{{myText}}</p>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import Photo from '../models/photo';
+import { PhotosService } from '../services/photos.service';
 
 @Component({
   selector: 'app-photo-album',
@@ -8,17 +9,21 @@ import Photo from '../models/photo';
 })
 export class PhotoAlbumComponent implements OnInit {
   photos: Array<Photo>
-  constructor() { }
+  constructor(private ps: PhotosService) { }
 
-  getPhotos() {
-    fetch('https://jsonplaceholder.typicode.com/photos/')
+  getPhotos(): void {
+    /* ersetzt durch Service & Observable */
+    /* fetch('https://jsonplaceholder.typicode.com/photos/')
       .then(jsonstring => jsonstring.json())
       .then(photos => {
         this.photos = photos.slice(0, 15);
         console.log('this.photos :>> ', this.photos);
       }
-        )
-      
+        ) */
+
+    this.ps.getPhotos()
+      .subscribe(photos => this.photos = photos.slice(0, 15));
+
   }
 
   ngOnInit(): void {

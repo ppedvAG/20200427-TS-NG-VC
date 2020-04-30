@@ -15,6 +15,12 @@ export class DemoOverviewComponent implements OnInit {
 
   arabNumbers: number[];
 
+  // for outputs componente
+  startMessage: string;
+  timerMessage: string;
+  endMessage: string;
+  endMessagFromChild: string;
+
   constructor() {
     this.myCouch = new Sofa(350, 124, 50, 'red');
     this.myUCouch = new UEckSofa(350, 124, 50, 'red', 3, 4);
@@ -24,6 +30,26 @@ export class DemoOverviewComponent implements OnInit {
 
   ngOnInit(): void {
 
+  }
+
+  startHandler() {
+    this.startMessage = 'Zeit läuft. Timer gestartet';
+  }
+
+  tickHandler(e: number) {
+    this.timerMessage = `es sind noch ${e} Sekunden über`;
+    if (e === 0) {
+      this.endMessage = 'Zeit abgelaufen Eltern componente';
+    }
+  }
+
+  endHandler(e: string) {
+    this.endMessagFromChild = e;
+
+  }
+
+  onBlur() {
+    console.log('onBlur :>> ');
   }
 
 }
