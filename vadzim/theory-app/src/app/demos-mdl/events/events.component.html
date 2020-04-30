@@ -1,0 +1,14 @@
+<h2>events component</h2>
+<pre>standard events</pre>
+<p [class.home]="isHome" [class.away]="!isHome" (mouseenter)="home()" (mouseleave)="away()">{{getText()}}</p>
+
+<pre>
+event bei einer DIV triggert das gleiche event bei einer anderen DIV
+</pre>
+<div [class.home]="isHome2" [class.away]="!isHome2" (mouseenter)="home2()" (mouseleave)="away2()">{{getText2()}}</div>
+<div [class.home]="isHome2" [class.away]="!isHome2" (mouseenter)="home2()" (mouseleave)="away2()">{{getText2()}}</div>
+
+<pre>event object</pre>
+<aside (mouseenter)="home1($event)" (mouseleave)="away1($event)">{{text}}</aside>
+<aside (mouseenter)="home1($event)" (mouseleave)="away1($event)">{{text}}</aside>
+<hr>

@@ -1,0 +1,19 @@
+/*
+  @Input() myCouch: Furniture.Couch;
+  @Input() myTable: Furniture.Table;
+*/
+
+.furniture {
+  color: green
+}
+
+.table {
+  border: thin solid;
+  color: rgb(212, 190, 65);
+}
+
+.couch {
+  border: medium dotted;
+  color: rgb(61, 17, 221);
+}
+

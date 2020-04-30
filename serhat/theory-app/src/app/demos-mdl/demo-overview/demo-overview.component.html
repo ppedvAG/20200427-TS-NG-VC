@@ -6,3 +6,25 @@
 <app-card [suit]="'diamonds'" [value]="'Q'"></app-card>
 <app-card [suit]="'spades'" [value]="'K'"></app-card>
 <app-card [suit]="'blabla'" [value]="'B'"></app-card>
+
+<h1>furniture component!</h1>
+<app-furniture [someFurniture]="myCouch"></app-furniture>
+<app-furniture [someFurniture]="myUCouch"></app-furniture>
+
+<h1>Roman Numbers</h1>
+<app-roman-number *ngFor="let num of arabNumbers"
+[zahl]="num"></app-roman-number>
+
+<h1>Pipes</h1>
+<app-pipes></app-pipes>
+
+<h1>Events</h1>
+<app-events></app-events>
+
+<h1>Output</h1>
+<app-outputs [seconds]="5" (startEvent)="startHandler()" (tickEvent)="tickHandler($event)" (endEvent)="endHandler($event)"></app-outputs>
+
+<p>Start message: {{startMessage}}</p>
+<p>Timer message: {{timerMessage}}</p>
+<p>End message: {{endMessage}}</p>
+<p>End message from child: {{endMessageFromChild}}</p>

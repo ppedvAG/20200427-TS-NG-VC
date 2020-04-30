@@ -10,6 +10,10 @@
 - [x] [textEditorShortcuts.md](SHORTCUTS-EDITOR.md)
 
 commit
+<!-- 
+Die Links in VSC sind nicht case-sensitive und funktionieren auch mit Backslash statt Slash.
+Auf GitHub sind sie aber case-sensitive und nur mit Slash!
+-->
 
 ## M001 | GETTING STARTED
 
@@ -54,14 +58,14 @@ commit
 
 - [x] [union type & string literal type](M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
 - [x] [enums](M005-Demo-UnionTypeNLiteralType/enums.ts)
-- [x] [Ü Pizzabestellung](M005-Lab-PizzaBestellung\pizza.ts)
+- [x] [Ü Pizzabestellung](M005-Lab-PizzaBestellung/pizza.ts)
 
 commit
 
 ## M006 | INTERFACES
 
 - [x] [interfaces](M006-Demo-Interfaces/interfaces.ts)
-- [x] [Ü Todos](M006-Lab-TodoListe\todos.ts)
+- [x] [Ü Todos](M006-Lab-TodoListe/todos.ts)
 
 commit
 
@@ -81,16 +85,16 @@ commit
 - [ ] ng modules
 - [ ] js/ts modules
 - [ ] node modules
-- [ ] [demos mdl](theory-app\src\app\demos-mdl\demos-mdl.module.ts)
+- [ ] [demos mdl](theory-app/src/app/demos-mdl/demos-mdl.module.ts)
 
 ## M009 | COMPONENTS INTRO
 
 - [ ] component template
 - [ ] component selector
 - [ ] imports of components
-- [ ] [demo time](theory-app\src\app\demos-mdl\time\time.component.ts)
-- [ ] [demo card](theory-app\src\app\demos-mdl\card\card.component.ts)
-- [ ] [Ü rating](theory-app\src\app\photos-mdl\rating\rating.component.ts)
+- [ ] [demo time](theory-app/src/app/demos-mdl/time/time.component.ts)
+- [ ] [demo card](theory-app/src/app/demos-mdl/card/card.component.ts)
+- [ ] [Ü rating](theory-app/src/app/photos-mdl/rating/rating.component.ts)
 
 <!-- LAB:
 in photos-mdl eine komponente rating
@@ -111,7 +115,7 @@ rating-Komponente wird über Overview gerendert
 - [ ] class-object
 - [ ] ngStyle
 - [ ] ngClass
-- [ ] _classname_
+- [ ] className
 
 <!-- 
 LAB
@@ -123,14 +127,48 @@ commit
 
 ## M011 | DIRECTIVES
 
-- [ ] directive, directive types
-- [ ] ngFor, ngIf, ngSwitch
-- [ ] ng-template
+- [x] directive, directive types
+- [x] ngFor, ngIf, ngSwitch
+- [x] ng-template
+- [ ] [Ü photos](theory-app/src/app/photos-mdl/photo-album/photo-album.component.ts)
 
 <!-- 
 LAB
-
 15 Bilder holen
 in ein Array diese 15 Bilder packen
 Array durchiterieren und dabei soll die 
 Komponente Photo wiederholt werden -->
+
+## M012 | COMPONENTS & LIFECYCLE
+
+- [x] templates & 'inline-template'
+- [x] 'inline-styles'
+- [x] class fields / props & template variables
+- [x] components lifecycle & lifecycle hooks
+- [x] [pipes](vadzim/theory-app/src/app/demos-mdl/pipes/pipes.component.html)
+
+commit
+
+## M013 | EVENTS
+
+- [ ] event binding über runde Klammern
+- [ ] event object, event.target, event types
+- [ ] [demo events](vadzim\theory-app\src\app\demos-mdl\events\events.component.ts)
+
+commit
+
+## M014 |
+
+commit
+
+## M015 |
+
+commit
+
+## M016 |
+
+commit
+
+## M017 |
+
+commit
