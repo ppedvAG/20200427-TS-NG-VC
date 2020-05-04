@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class RomanNumberComponent implements OnInit {
   @Input() zahl: number;
 
+  /* *todo object oder map? */
   romNumbers = {
     1: 'I',
     2: 'II',

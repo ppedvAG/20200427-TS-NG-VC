@@ -15,15 +15,26 @@ import { EventsComponent } from './events/events.component';
 import { OutputsComponent } from './outputs/outputs.component';
 import { NgformComponent } from './ngform/ngform.component';
 import { MaterialComponent } from './material/material.component';
-import { MatOptgroup } from '@angular/material/core';
-
+import { MatOptionModule } from '@angular/material/core';
+import { PropsComponent } from './props/props.component';
 @NgModule({
-  declarations: [TimeComponent, CardComponent, DemoOverviewComponent, FurnitureComponent, RomanNumberComponent, PipesComponent, EventsComponent, OutputsComponent, NgformComponent, MaterialComponent],
+  declarations: [
+    TimeComponent, 
+    CardComponent, 
+    DemoOverviewComponent, 
+    FurnitureComponent, 
+    RomanNumberComponent, 
+    PipesComponent, 
+    EventsComponent, 
+    OutputsComponent, 
+    NgformComponent, 
+    MaterialComponent, PropsComponent
+  ],
   imports: [
     CommonModule,
     FormsModule,
     MatSliderModule,
-    MatOptgroup
+    MatOptionModule
   ],
   bootstrap: [DemoOverviewComponent],
   exports: [

@@ -10,13 +10,8 @@ import * as Furniture from '../models/furniture';
 })
 export class FurnitureComponent implements OnInit {
   @Input() someFurniture: any;
-
-  @Input() myTable: Furniture.Tisch;
-  @Input() myAngleCouch: Furniture.EckSofa;
-  @Input() myFurniture: Furniture.Möbelstück;
- 
-
   description: string;
+  
   constructor() { }
 
   getClass(): string {
