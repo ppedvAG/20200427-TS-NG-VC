@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+</head>
+
+<body>
+    <h1>Taschenrechner</h1>
+    <pre>
+2 inputs für die Eingabe, 4 buttons für math. ops, 1 input/ output als ausgabe
+    </pre>
+    <br>
+    <input type="number" name="" id="zahl1inp" placeholder="zahl1">
+    <select name="" id="operations">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" name="" id="zahl2inp" placeholder="zahl2">
+
+    <button onclick="berechne(+zahl1inp.value, +zahl2inp.value, operations.value)">=</button>
+
+    <input type="text" disabled id="resultat">
+
+    <script src="rechner.js"></script>
+</body>
+
+</html>

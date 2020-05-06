@@ -35,7 +35,7 @@ export class OutputsComponent implements OnInit {
       if (this.remainingTime <= 0) {
         this.endMessage = 'Meldung von der Kindkomponente: Zeit abgelaufen';
         this.endEvent.emit(this.endMessage);
-        window.clearInterval(this.intervalId); // *todo kann ich return von allen anonymen Methoden in der Methode selbst verwenden?
+        window.clearInterval(this.intervalId);
       }
     }, 1000);
   }

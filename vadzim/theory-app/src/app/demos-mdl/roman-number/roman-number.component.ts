@@ -8,7 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class RomanNumberComponent implements OnInit {
   @Input() zahl: number;
 
-  /* *todo object oder map? */
+  /* object oder map? object! */
+  /* Zugriff auf die Werte über die Punkt-Notation bei solchen Objekten ist aber unmöglich */
   romNumbers = {
     1: 'I',
     2: 'II',
