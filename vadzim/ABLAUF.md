@@ -21,19 +21,20 @@ Auf GitHub sind sie aber case-sensitive und nur mit Slash!
 - [x] node & npm [npm home](https://www.npmjs.com/)
 - [x] tsc
 - [x] [TS.md getting started](typescript.md#ts--getting-started)
-- [x] [M001-Demo](M001-Demo-Helloworld/greeter.ts)
-- [x] [M001-Lab](M001-Lab-LoginForm/login.ts)
-- [x] [js Dom Traversing](M001-Demo-Helloworld/jsDOMtraversing.html)
-- [x] [emmet](M001-Demo-Helloworld/emmet.html)
+- [x] [M001-Demo](typescript/M001-Demo-Helloworld/greeter.ts)
+- [x] [M001-Lab](typescript/M001-Lab-LoginForm/login.ts)
+- [x] [js Dom Traversing](typescript/M001-Demo-Helloworld/jsDOMtraversing.html)
+- [x] [emmet](typescript/M001-Demo-Helloworld/emmet.html)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/e86c47429af1e1183417de869f3daa0757ffc7bb)
 
 ## M002 | TYPES
 
-- [x] [primitives, type object, typeof, casting](M002-Demo-Types/types.ts)
-- [x] [assertion](M002-Demo-Types/assertion.ts)
-- [x] [any vs. unknown](M002-Demo-Types/anyVsUnknown.ts)
-- [x] [Ü Taschenrechner](M001-Lab-Rechner/rechner.ts)
+- [x] [primitives, type object, typeof, casting](typescript/M002-Demo-Types/types.ts)
+- [x] [casting](typescript/M002-Demo-Types/casting.ts)
+- [x] [assertion](typescript/M002-Demo-Types/assertion.ts)
+- [x] [any vs. unknown](typescript/M002-Demo-Types/anyVsUnknown.ts)
+- [x] [Ü Taschenrechner](typescript/M001-Lab-Rechner/rechner.ts)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/2ae266de1c01f27b519694877f1afd63592a131b)
 
@@ -42,30 +43,30 @@ Auf GitHub sind sie aber case-sensitive und nur mit Slash!
 - [x] return type
 - [x] function type
 - [x] generic function
-- [x] [demo](M003-Demo-Functions/functions.ts)
+- [x] [demo](typescript/M003-Demo-Functions/functions.ts)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/1c26e146afb3b36b31e6cd1e0aa5586d78579e48)
 
 ## M004 | DATA STRUCTURES
 
-- [x] [arrays](M004-Demo-DataStructures/arrays.ts)
-- [x] [Ü arrays](M004-Lab-DataStructures/genericFctNArrays.ts)
-- [x] [tuple / Tupel](M004-Demo-DataStructures/tuples.ts)
+- [x] [arrays](typescript/M004-Demo-DataStructures/arrays.ts)
+- [x] [Ü arrays](typescript/M004-Lab-DataStructures/genericFctNArrays.ts)
+- [x] [tuple / Tupel](typescript/M004-Demo-DataStructures/tuples.ts)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/d182a88062a0732b4209339d5756ef9e5ad32804)
 
 ## M005 | UNION TYPE & LITERAL TYPE
 
-- [x] [union type & string literal type](M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
-- [x] [enums](M005-Demo-UnionTypeNLiteralType/enums.ts)
-- [x] [Ü Pizzabestellung](M005-Lab-PizzaBestellung/pizza.ts)
+- [x] [union type & string literal type](typescript/M005-Demo-UnionTypeNLiteralType/unionTypeNLiteralType.ts)
+- [x] [enums](typescript/M005-Demo-UnionTypeNLiteralType/enums.ts)
+- [x] [Ü Pizzabestellung](typescript/M005-Lab-PizzaBestellung/pizza.ts)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/f49df29e1d6980ea2e04cca3a5d078172e962eb9)
 
 ## M006 | INTERFACES
 
-- [x] [interfaces](M006-Demo-Interfaces/interfaces.ts)
-- [x] [Ü Todos](M006-Lab-TodoListe/todos.ts)
+- [x] [interfaces](typescript/M006-Demo-Interfaces/interfaces.ts)
+- [x] [Ü Todos](typescript/M006-Lab-TodoListe/todos.ts)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/f902ae6c1ad48109b2d71fba2778553d7f311f55)
 
