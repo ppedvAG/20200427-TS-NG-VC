@@ -130,7 +130,7 @@ rating-Komponente wird über Overview gerendert
 - [x] directive, directive types
 - [x] ngFor, ngIf, ngSwitch
 - [x] ng-template [roman-number.component.html](theory-app/src/app/demos-mdl/roman-number/roman-number.component.html)
-- [ ] [Ü photos](theory-app/src/app/photos-mdl/photo-album/photo-album.component.ts)
+- [x] [Ü photos](theory-app/src/app/photos-mdl/photo-album/photo-album.component.ts)
 
 <!-- 
 LAB
@@ -182,17 +182,17 @@ commit
 
 ## M016 | SERVICES
 
-- [ ] dependency injection
-- [ ] service & @Injectable()
-- [ ] HttpClienModule & HttpClient
-- [ ] rxjs & observables
-- [ ] [photos.service.ts](theory-app/src/app/photos-mdl/services/photos.service.ts)
+- [x] dependency injection
+- [x] service & @Injectable()
+- [x] HttpClienModule & HttpClient
+- [x] rxjs & observables
+- [x] [photos.service.ts](theory-app/src/app/photos-mdl/services/photos.service.ts)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/9a7f10d8c107b5481f385f80592ec9ec6b049db0)
 
 ## M017 | MATERIAL
 
-- [ ] [material.angular.io](https://material.angular.io/)
-- [ ] [mat-slider](theory-app/src/app/demos-mdl/material/material.component.html)
+- [x] [material.angular.io](https://material.angular.io/)
+- [x] [mat-slider](theory-app/src/app/demos-mdl/material/material.component.html)
 
 [commit](https://github.com/ppedvAG/20200427-TS-NG-VC/commit/d2ffba0ac8dc6272901684ed61d7684b537d9895)
