@@ -11,3 +11,5 @@ Ein Kurs von PPEDV
 [MODULE von SERHAT](serhat/ABLAUF.md)
 
 [MODULE von vadzim](vadzim/ABLAUF.md)
+
+https://ppedv.de/schulung/kurse/AngularMicrosoftTypeScriptJavaScriptECMAScriptSinglePageAppWorkshopSeminarWeiterbildung.aspx
